@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC532E052040318E0087DE1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC532E042040318E0087DE1A /* AppDelegate.m */; };
+		EC532E082040318E0087DE1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC532E072040318E0087DE1A /* ViewController.m */; };
+		EC532E0B2040318E0087DE1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC532E092040318E0087DE1A /* Main.storyboard */; };
+		EC532E0D2040318E0087DE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC532E0C2040318E0087DE1A /* Assets.xcassets */; };
+		EC532E102040318E0087DE1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC532E0E2040318E0087DE1A /* LaunchScreen.storyboard */; };
+		EC532E132040318E0087DE1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC532E122040318E0087DE1A /* main.m */; };
+		EC532E1D2040318E0087DE1A /* PDTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC532E1C2040318E0087DE1A /* PDTextViewTests.m */; };
+		EC532E282040318E0087DE1A /* PDTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC532E272040318E0087DE1A /* PDTextViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC532E192040318E0087DE1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC532DF82040318E0087DE1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC532DFF2040318E0087DE1A;
+			remoteInfo = PDTextView;
+		};
+		EC532E242040318E0087DE1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC532DF82040318E0087DE1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC532DFF2040318E0087DE1A;
+			remoteInfo = PDTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC532E002040318E0087DE1A /* PDTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC532E032040318E0087DE1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC532E042040318E0087DE1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC532E062040318E0087DE1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC532E072040318E0087DE1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC532E0A2040318E0087DE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC532E0C2040318E0087DE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC532E0F2040318E0087DE1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC532E112040318E0087DE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC532E122040318E0087DE1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC532E182040318E0087DE1A /* PDTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC532E1C2040318E0087DE1A /* PDTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTextViewTests.m; sourceTree = "<group>"; };
+		EC532E1E2040318E0087DE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC532E232040318E0087DE1A /* PDTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC532E272040318E0087DE1A /* PDTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTextViewUITests.m; sourceTree = "<group>"; };
+		EC532E292040318E0087DE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC532DFD2040318E0087DE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC532E152040318E0087DE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC532E202040318E0087DE1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC532DF72040318E0087DE1A = {
+			isa = PBXGroup;
+			children = (
+				EC532E022040318E0087DE1A /* PDTextView */,
+				EC532E1B2040318E0087DE1A /* PDTextViewTests */,
+				EC532E262040318E0087DE1A /* PDTextViewUITests */,
+				EC532E012040318E0087DE1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC532E012040318E0087DE1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC532E002040318E0087DE1A /* PDTextView.app */,
+				EC532E182040318E0087DE1A /* PDTextViewTests.xctest */,
+				EC532E232040318E0087DE1A /* PDTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC532E022040318E0087DE1A /* PDTextView */ = {
+			isa = PBXGroup;
+			children = (
+				EC532E032040318E0087DE1A /* AppDelegate.h */,
+				EC532E042040318E0087DE1A /* AppDelegate.m */,
+				EC532E062040318E0087DE1A /* ViewController.h */,
+				EC532E072040318E0087DE1A /* ViewController.m */,
+				EC532E092040318E0087DE1A /* Main.storyboard */,
+				EC532E0C2040318E0087DE1A /* Assets.xcassets */,
+				EC532E0E2040318E0087DE1A /* LaunchScreen.storyboard */,
+				EC532E112040318E0087DE1A /* Info.plist */,
+				EC532E122040318E0087DE1A /* main.m */,
+			);
+			path = PDTextView;
+			sourceTree = "<group>";
+		};
+		EC532E1B2040318E0087DE1A /* PDTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC532E1C2040318E0087DE1A /* PDTextViewTests.m */,
+				EC532E1E2040318E0087DE1A /* Info.plist */,
+			);
+			path = PDTextViewTests;
+			sourceTree = "<group>";
+		};
+		EC532E262040318E0087DE1A /* PDTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC532E272040318E0087DE1A /* PDTextViewUITests.m */,
+				EC532E292040318E0087DE1A /* Info.plist */,
+			);
+			path = PDTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC532DFF2040318E0087DE1A /* PDTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC532E2C2040318E0087DE1A /* Build configuration list for PBXNativeTarget "PDTextView" */;
+			buildPhases = (
+				EC532DFC2040318E0087DE1A /* Sources */,
+				EC532DFD2040318E0087DE1A /* Frameworks */,
+				EC532DFE2040318E0087DE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDTextView;
+			productName = PDTextView;
+			productReference = EC532E002040318E0087DE1A /* PDTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC532E172040318E0087DE1A /* PDTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC532E2F2040318E0087DE1A /* Build configuration list for PBXNativeTarget "PDTextViewTests" */;
+			buildPhases = (
+				EC532E142040318E0087DE1A /* Sources */,
+				EC532E152040318E0087DE1A /* Frameworks */,
+				EC532E162040318E0087DE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC532E1A2040318E0087DE1A /* PBXTargetDependency */,
+			);
+			name = PDTextViewTests;
+			productName = PDTextViewTests;
+			productReference = EC532E182040318E0087DE1A /* PDTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC532E222040318E0087DE1A /* PDTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC532E322040318E0087DE1A /* Build configuration list for PBXNativeTarget "PDTextViewUITests" */;
+			buildPhases = (
+				EC532E1F2040318E0087DE1A /* Sources */,
+				EC532E202040318E0087DE1A /* Frameworks */,
+				EC532E212040318E0087DE1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC532E252040318E0087DE1A /* PBXTargetDependency */,
+			);
+			name = PDTextViewUITests;
+			productName = PDTextViewUITests;
+			productReference = EC532E232040318E0087DE1A /* PDTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC532DF82040318E0087DE1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = PipeDog;
+				TargetAttributes = {
+					EC532DFF2040318E0087DE1A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					EC532E172040318E0087DE1A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC532DFF2040318E0087DE1A;
+					};
+					EC532E222040318E0087DE1A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC532DFF2040318E0087DE1A;
+					};
+				};
+			};
+			buildConfigurationList = EC532DFB2040318E0087DE1A /* Build configuration list for PBXProject "PDTextView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC532DF72040318E0087DE1A;
+			productRefGroup = EC532E012040318E0087DE1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC532DFF2040318E0087DE1A /* PDTextView */,
+				EC532E172040318E0087DE1A /* PDTextViewTests */,
+				EC532E222040318E0087DE1A /* PDTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC532DFE2040318E0087DE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC532E102040318E0087DE1A /* LaunchScreen.storyboard in Resources */,
+				EC532E0D2040318E0087DE1A /* Assets.xcassets in Resources */,
+				EC532E0B2040318E0087DE1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC532E162040318E0087DE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC532E212040318E0087DE1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC532DFC2040318E0087DE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC532E082040318E0087DE1A /* ViewController.m in Sources */,
+				EC532E132040318E0087DE1A /* main.m in Sources */,
+				EC532E052040318E0087DE1A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC532E142040318E0087DE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC532E1D2040318E0087DE1A /* PDTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC532E1F2040318E0087DE1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC532E282040318E0087DE1A /* PDTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC532E1A2040318E0087DE1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC532DFF2040318E0087DE1A /* PDTextView */;
+			targetProxy = EC532E192040318E0087DE1A /* PBXContainerItemProxy */;
+		};
+		EC532E252040318E0087DE1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC532DFF2040318E0087DE1A /* PDTextView */;
+			targetProxy = EC532E242040318E0087DE1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC532E092040318E0087DE1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC532E0A2040318E0087DE1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC532E0E2040318E0087DE1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC532E0F2040318E0087DE1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC532E2A2040318E0087DE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC532E2B2040318E0087DE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC532E2D2040318E0087DE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PipeDog.PDTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC532E2E2040318E0087DE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PipeDog.PDTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC532E302040318E0087DE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PipeDog.PDTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDTextView.app/PDTextView";
+			};
+			name = Debug;
+		};
+		EC532E312040318E0087DE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PipeDog.PDTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDTextView.app/PDTextView";
+			};
+			name = Release;
+		};
+		EC532E332040318E0087DE1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PipeDog.PDTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDTextView;
+			};
+			name = Debug;
+		};
+		EC532E342040318E0087DE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PDTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PipeDog.PDTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC532DFB2040318E0087DE1A /* Build configuration list for PBXProject "PDTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC532E2A2040318E0087DE1A /* Debug */,
+				EC532E2B2040318E0087DE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC532E2C2040318E0087DE1A /* Build configuration list for PBXNativeTarget "PDTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC532E2D2040318E0087DE1A /* Debug */,
+				EC532E2E2040318E0087DE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC532E2F2040318E0087DE1A /* Build configuration list for PBXNativeTarget "PDTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC532E302040318E0087DE1A /* Debug */,
+				EC532E312040318E0087DE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC532E322040318E0087DE1A /* Build configuration list for PBXNativeTarget "PDTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC532E332040318E0087DE1A /* Debug */,
+				EC532E342040318E0087DE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC532DF82040318E0087DE1A /* Project object */;
+}
