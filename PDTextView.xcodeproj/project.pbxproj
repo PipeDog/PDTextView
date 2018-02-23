@@ -15,6 +15,7 @@
 		EC532E132040318E0087DE1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC532E122040318E0087DE1A /* main.m */; };
 		EC532E1D2040318E0087DE1A /* PDTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC532E1C2040318E0087DE1A /* PDTextViewTests.m */; };
 		EC532E282040318E0087DE1A /* PDTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC532E272040318E0087DE1A /* PDTextViewUITests.m */; };
+		EC532E38204031B70087DE1A /* PDTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC532E37204031B70087DE1A /* PDTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EC532E232040318E0087DE1A /* PDTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC532E272040318E0087DE1A /* PDTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTextViewUITests.m; sourceTree = "<group>"; };
 		EC532E292040318E0087DE1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC532E36204031B70087DE1A /* PDTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDTextView.h; sourceTree = "<group>"; };
+		EC532E37204031B70087DE1A /* PDTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		EC532E022040318E0087DE1A /* PDTextView */ = {
 			isa = PBXGroup;
 			children = (
+				EC532E35204031920087DE1A /* Source */,
 				EC532E032040318E0087DE1A /* AppDelegate.h */,
 				EC532E042040318E0087DE1A /* AppDelegate.m */,
 				EC532E062040318E0087DE1A /* ViewController.h */,
@@ -130,6 +134,15 @@
 				EC532E292040318E0087DE1A /* Info.plist */,
 			);
 			path = PDTextViewUITests;
+			sourceTree = "<group>";
+		};
+		EC532E35204031920087DE1A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EC532E36204031B70087DE1A /* PDTextView.h */,
+				EC532E37204031B70087DE1A /* PDTextView.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				EC532E082040318E0087DE1A /* ViewController.m in Sources */,
 				EC532E132040318E0087DE1A /* main.m in Sources */,
 				EC532E052040318E0087DE1A /* AppDelegate.m in Sources */,
+				EC532E38204031B70087DE1A /* PDTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
